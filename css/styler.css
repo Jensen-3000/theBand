@@ -117,3 +117,7 @@ body {
     gap: 1.2em;
     margin: 1.2em;
 }
+
+.booked-concerts p{
+    margin: 0.2em 0;
+}
