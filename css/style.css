@@ -69,10 +69,18 @@ body {
 
 .content-left {
     flex: 40;
+    padding: 20px;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .content-right {
     flex: 60;
+    
+}
+
+.content-right img {
+    max-width: 100%;
+    height: auto; 
 }
 
 .footer {
