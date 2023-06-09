@@ -12,16 +12,7 @@
     flex-direction: column;
     max-width: 1200px;
     margin: auto;
-    flex-grow: 1;
     width: 100%;
-    min-height: 100vh;
-}
-
-.logo-header,
-.navigation,
-.contact-number,
-.social-logos {
-    padding: 0 2em;
 }
 
 /* Header settings */
@@ -38,9 +29,7 @@
 .logo-header {
     display: flex;
     align-items: center;
-    height: 100%;
     max-width: 100%;
-    object-fit: contain;
 }
 
 .navigation {
@@ -63,7 +52,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 1.2em;
-    margin: 0 2.4em;
+    margin: 0 3.4em;
 }
 
 .content-left h1 {
@@ -78,7 +67,7 @@
 }
 
 .content-right {
-    margin: 1.2em;
+    margin: 3em 0;
 }
 
 .content-right img {
@@ -126,6 +115,14 @@
     display: flex;
     align-items: center;
     max-height: 1.5em;
+}
+
+/* Header and Footer settings */
+.logo-header,
+.navigation,
+.contact-number,
+.social-logos {
+    padding: 0 2em;
 }
 
 /* Form settings */
