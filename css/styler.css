@@ -5,16 +5,15 @@
 }
 
 body {
-    margin: 0;
-    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #fff;
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0;
 }
 
-.container {
+.wrapper {
     width: 100%;
     max-width: 1200px;
     margin: auto;
@@ -46,7 +45,7 @@ body {
 
 .navigation-link {
     text-decoration: none;
-    color: #000;
+    color: black;
 }
 
 .navigation-link:hover {
@@ -76,6 +75,8 @@ body {
     width: 100%;
     height: auto;
     margin: 1.2em 0;
+
+    box-shadow: 10px 10px 5px lightgray;
 }
 
 /* Footer settings */
@@ -88,7 +89,7 @@ body {
 }
 
 .contact-number {
-    color: #000;
+    color: black;
     margin: 0;
     font-size: 1.5em;
     font-weight: bold;
@@ -118,6 +119,39 @@ body {
     margin: 1.2em;
 }
 
-.booked-concerts p{
+.booked-concerts p {
     margin: 0.2em 0;
+}
+
+/* Form settings */
+form {
+    margin: 2em 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+form input,
+form textarea {
+    padding: 0.5em;
+    border: 1px solid lightgray;
+    border-radius: 0.5em;
+    font-size: 1em;
+}
+
+form textarea {
+    resize: vertical;
+    min-height: 10em;
+    max-height: 20em;
+    width: 100%;
+    max-width: 100%;
+}
+
+form input[type="submit"] {
+    background-color: grey;
+    color: white;
+}
+
+form input[type="submit"]:hover {
+    background-color: green;
 }

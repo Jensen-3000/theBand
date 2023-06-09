@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>The Band - Info</title>
     <link rel="stylesheet" href="./css/styler.css">
 </head>
 
 <body>
-    <div class="container">
+    <div class="wrapper">
         <header class="header">
             <a href="index.html">
                 <img class="logo-header" src="./img/the_band_logo_header.png" alt="The Band logo">
@@ -37,8 +37,8 @@
                     tilbage. Vi har deltaget i velgørenhedskoncerter, og en del af vores indtjening fra vores albumsalg
                     går til at støtte lokale velgørenhedsorganisationer. Vi tror på, at det at give tilbage ikke kun
                     hjælper dem, der er i nød, men også bringer os tættere som et samfund.</p>
-
             </section>
+            
             <section class="content-right">
                 <img src="./img/my-life-through-a-lens-bq31L0jQAjU-unsplash.jpg" alt="">
                 Photo by <a
@@ -46,15 +46,31 @@
                     Life Through A Lens"</a> on <a
                     href="https://unsplash.com/photos/bq31L0jQAjU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
+                <form action="" method="post">
+                    <h3>Send os dit spørgsmål!</h3>
+                    <input type="text" name="name" placeholder="Navn" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <textarea name="question" placeholder="Dit spørgsmål til os" required></textarea>
+                    <input type="submit" value="Send">
+                </form>
             </section>
         </main>
+
         <footer class="footer">
             <p class="contact-number">Booking: +45 2143 6587</p>
             <div class="social-logos">
-                <img class="logo-footer" src="./img/the_band_logo_footer.png" alt="The Bands Logo">
-                <img src="./img/vimeo-logo-icon.png" alt="Vimeo logo" class="social-logo">
-                <img src="./img/facebook-logo-icon.png" alt="Facebook logo" class="social-logo">
-                <img src="./img/instagram-logo-icon.png" alt="Instagram logo" class="social-logo">
+                <a href="./index.html">
+                    <img class="logo-footer" src="./img/the_band_logo_footer.png" alt="The Bands Logo">
+                </a>
+                <a href="https://vimeo.com/">
+                    <img src="./img/vimeo-logo-icon.png" alt="Vimeo logo" class="social-logo">
+                </a>
+                <a href="https://facebook.com/">
+                    <img src="./img/facebook-logo-icon.png" alt="Facebook logo" class="social-logo">
+                </a>
+                <a href="https://www.instagram.com/">
+                    <img src="./img/instagram-logo-icon.png" alt="Instagram logo" class="social-logo">
+                </a>
             </div>
         </footer>
 
